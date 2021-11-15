@@ -14,6 +14,7 @@ LoanGateway - localhost:8020/loan
 * RequestLoan[POST] - /request (<i>Returns borrowerId</i>)
 
 @RequestBody int amount
+
 example: 300000
 
 * List of loan quotes[GET] - /{borrowerId} (<i>Returns list of LoanQuote objects with quoteId and bankId</i>)
