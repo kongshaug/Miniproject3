@@ -20,6 +20,7 @@ example: 300000
 * List of loan quotes[GET] - /{borrowerId} (<i>Returns list of LoanQuote objects with quoteId and bankId</i>)
 
 * Accept loan quote[POST] - /accept/{quoteId}/{bankId} (<i>Returns String</i>)
+
 @RequestBody BorrowerDTO borrowerDTO
 
 Example: BorrowerDTO {
