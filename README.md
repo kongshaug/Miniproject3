@@ -15,7 +15,7 @@ LoanGateway - localhost:8020/loan
 
 @RequestBody int amount
 
-example: 300000
+##### Example: 300000
 
 * List of loan quotes[GET] - /{borrowerId} (<i>Returns list of LoanQuote objects with quoteId and bankId</i>)
 
@@ -23,7 +23,8 @@ example: 300000
 
 @RequestBody BorrowerDTO borrowerDTO
 
-Example: BorrowerDTO {
+##### Example: 
+BorrowerDTO {
 "id": UUID
 "firstname": String
 "lastname": String
